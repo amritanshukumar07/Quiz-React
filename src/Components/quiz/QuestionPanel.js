@@ -4,7 +4,7 @@ import QuestionPallet from './QuestionPallet';
 
 export default function QuestionPanel() {
 
-var countDownDate = new Date("Nov 30, 2022 18:00:00").getTime();
+var countDownDate = new Date("Jan 3, 2023 18:00:00").getTime();
 var x = setInterval(function() {
   var now = new Date().getTime();
   var distance = countDownDate - now;
